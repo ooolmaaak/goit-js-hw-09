@@ -32,3 +32,20 @@ img {
   font-size: 30px;
   font-weight: 500;
 }
+
+.form {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+
+.form input {
+  max-width: 100px;
+}
+
+.form button {
+  padding: 10px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
